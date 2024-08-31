@@ -1,6 +1,5 @@
 image:
   file: .gitpod.Dockerfile
-
 tasks:
   - name: az
     init: |
@@ -12,7 +11,7 @@ tasks:
       dotnet build
   - name: Run
     command: dotnet run
-
 vscode:
   extensions:
     - muhammad-sammy.csharp
+    - ms-dotnettools.vscode-dotnet-runtime
